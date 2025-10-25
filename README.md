@@ -25,7 +25,7 @@
 1. 克隆仓库并进入项目根目录：
 
 ```bash
-git clone [<repo>](https://github.com/wsmitpwtind/wallet_tracker.git)
+git clone https://github.com/wsmitpwtind/wallet_tracker.git
 cd wallet-tracker
 ```
 
@@ -42,9 +42,22 @@ pip install requests colorama
   - TARGET_ADDRESS
   - POLL_INTERVAL
   - SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, EMAIL_FROM, EMAIL_TO
-
-> 注意：163 邮箱需使用 SMTP 授权码（不是登录密码）。不要把真实授权码提交到公共仓库。
-
+> 注意：163 邮箱需使用 SMTP 授权码（不是登录密码）。不要把真实授权码给任何人。
+- *如果你对python完全不了解，请遵循以下步骤*
+  - 检查你的电脑是否有python环境
+    ```bash
+    python
+    ```
+    若无，则检查
+  
+    ```bash
+    python3
+    ```
+    如果只有python3(macos电脑默认自带)，请使用python3代替本说明中的所有python，也可以正常使用
+    如果都没有，请尝试百度安装python
+  - 启动方式默认为命令行，对于macos来说，请搜索终端即可使用，对于windows，请选择在*运行*中输入cmd
+  - 下载依赖可能因为墙的缘故404，或者速度很慢，依赖即使下载很慢也可以下载完毕，但如果下载不了，则建议搜索pip换源并据此操作
+  - 只需要将101-115行的内容修改为你的信息即可，其余可以不管
 4. 运行监控脚本：
 
 ```bash
