@@ -57,6 +57,7 @@ python3 tracker.py
 ```bash
 python3 show_leaders.py
 ```
+![wallet-tracker overview](./pic_0.png)
 
 
 ## 配置要点与可调整项
