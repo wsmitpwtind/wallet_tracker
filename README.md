@@ -11,6 +11,7 @@
 - 定时（默认 30 秒）拉取清算所账户状态并在终端以中文输出：账户摘要、每个持仓的大小/开仓价/当前 ROI/仓位价值/未实现盈亏等。
 - 侦测持仓的新增/平仓/变动，在变更时构建邮件正文并发送到配置的收件箱
 
+![wallet-tracker overview](./pic_0.png)
 
 ## 依赖
 - Python 3.8+
@@ -24,7 +25,7 @@
 1. 克隆仓库并进入项目根目录：
 
 ```bash
-git clone <repo>
+git clone [<repo>](https://github.com/wsmitpwtind/wallet_tracker.git)
 cd wallet-tracker
 ```
 
@@ -57,8 +58,6 @@ python3 tracker.py
 ```bash
 python3 show_leaders.py
 ```
-![wallet-tracker overview](./pic_0.png)
-
 
 ## 配置要点与可调整项
 - `TARGET`/`TARGET_ADDRESS`：要监控的账户地址（小写/校验请自行确认）。
